@@ -1,8 +1,24 @@
-
 .myContainer {
-  padding: 5%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.adminContainer {
+  width:25%;
+  margin: 0 auto;
+}
+
+.form-horizontal {
+  width: 100%;
+    margin: 0 auto;
+  text-align: right;
+
 }
 
 .form-control {
-  width: 50%;
+  width: 100%;
+}
+
+h1, h2 {
+  text-align: center;
 }

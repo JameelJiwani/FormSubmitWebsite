@@ -8,222 +8,176 @@
 </head>
 <body>
   <div class="myContainer">
-    <form class="form-horizontal" method="POST" action="submitForm.php">
+    <form class="" method="POST" action="submitForm.php">
       <div class="form-group">
-        <label class="col-sm-2 control-label">Date</label>
-        <div class="col-sm-10">
-          <input type="date" class="form-control" name="date">
-        </div>
+        <label>Date</label>
+        <input type="date" class="form-control" name="date">
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Work Order #</label>
-        <div class="col-sm-10">
-          <input type="number" class="form-control" name="ordernum" placeholder="Work Order Number">
-        </div>
+        <label>Work Order #</label>
+        <input type="number" class="form-control" name="ordernum" placeholder="Work Order Number">
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Additional ID</label>
-        <div class="col-sm-10">
-          <input type="number" class="form-control" name="additionalid" placeholder="Additional ID">
-        </div>
+        <label>Additional ID</label>
+        <input type="number" class="form-control" name="additionalid" placeholder="Additional ID">
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Crew #</label>
-        <div class="col-sm-10">
-          <input type="number" class="form-control" name="crewnum" placeholder="Crew Number">
-        </div>
+        <label >Crew #</label>
+        <input type="number" class="form-control" name="crewnum" placeholder="Crew Number">
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Tech ID 1</label>
-        <div class="col-sm-10">
-          <input type="number" class="form-control" name="techid1" placeholder="Tech ID 1">
-        </div>
+        <label >Tech ID 1</label>
+        <input type="number" class="form-control" name="techid1" placeholder="Tech ID 1">
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Tech ID 2</label>
-        <div class="col-sm-10">
-          <input type="number" class="form-control" name="techid2" placeholder="Tech ID 2">
-        </div>
+        <label >Tech ID 2</label>
+        <input type="number" class="form-control" name="techid2" placeholder="Tech ID 2">
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Civic #</label>
-        <div class="col-sm-10">
-          <input type="number" class="form-control" name="civicnum" placeholder="Civic Number">
-        </div>
+        <label >Civic #</label>
+        <input type="number" class="form-control" name="civicnum" placeholder="Civic Number">
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Address</label>
-        <div class="col-sm-10">
+        <label >Address</label>
+
           <input type="text" class="form-control" name="address" placeholder="Address">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Municipality</label>
-        <div class="col-sm-10">
+        <label >Municipality</label>
+
           <input type="text" class="form-control" name="municipality" placeholder="Municipality">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Postal Code</label>
-        <div class="col-sm-10">
+        <label >Postal Code</label>
+
           <input type="text" class="form-control" name="postalcode" placeholder="Postal Code">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Repair Type</label>
-        <div class="col-sm-10">
+        <label >Repair Type</label>
+
           <input type="text" class="form-control" name="repairtype" placeholder="Repair Type">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Drop Length</label>
-        <div class="col-sm-10">
+        <label >Drop Length</label>
+
           <input type="text" class="form-control" name="droplength" placeholder="Drop Length">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Cable Type Used</label>
-        <div class="col-sm-10">
+        <label >Cable Type Used</label>
+
           <input type="text" class="form-control" name="cabletype" placeholder="Cable Type Used">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Number of Driveway Crossing</label>
-        <div class="col-sm-10">
+        <label >Number of Driveway Crossing</label>
+
           <input type="number" class="form-control" name="crossingnum" placeholder="Number of Driveway Crossing">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Type</label>
-        <div class="col-sm-10">
+        <label >Type</label>
+
           <input type="text" class="form-control" name="type" placeholder="Type">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Sidewalk</label>
-        <div class="col-sm-10">
+        <label >Sidewalk</label>
+
           <input type="text" class="form-control" name="sidewalk" placeholder="Sidewalk">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Primary</label>
-        <div class="col-sm-10">
+        <label >Primary</label>
+
           <input type="text" class="form-control" name="primary" placeholder="Primary">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Secondary</label>
-        <div class="col-sm-10">
+        <label >Secondary</label>
+
           <input type="text" class="form-control" name="secondary" placeholder="Secondary">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Tap Levels CH 3/4</label>
-        <div class="col-sm-10">
+        <label >Tap Levels CH 3/4</label>
+
           <input type="text" class="form-control" name="tlch34" placeholder="Tap Levels CH 3/4">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Tap Levels CH 70</label>
-        <div class="col-sm-10">
+        <label >Tap Levels CH 70</label>
+
           <input type="text" class="form-control" name="tlch70" placeholder="Tap Levels CH 70">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">CSE Levels CH 3/4</label>
-        <div class="col-sm-10">
+        <label >CSE Levels CH 3/4</label>
+
           <input type="text" class="form-control" name="cselch34" placeholder="CSE Levels CH 3/4">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">CSE Levels CH 70</label>
-        <div class="col-sm-10">
+        <label >CSE Levels CH 70</label>
+
           <input type="text" class="form-control" name="cselch70" placeholder="CSE Levels CH 70">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Tap Location</label>
-        <div class="col-sm-10">
+        <label >Tap Location</label>
+
           <input type="text" class="form-control" name="taplocat" placeholder="Tap Location">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Safe Temporary Drop Removed</label>
-        <div class="col-sm-10">
+        <label >Safe Temporary Drop Removed</label>
+
           <input type="text" class="form-control" name="dropremoved" placeholder="Safe Temporary Drop Removed">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">CSE/Demaracation Point</label>
-        <div class="col-sm-10">
+        <label >CSE/Demaracation Point</label>
+
           <input type="text" class="form-control" name="csepoint" placeholder="CSE/Demaracation Point">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Conduit Placed</label>
-        <div class="col-sm-10">
+        <label >Conduit Placed</label>
+
           <input type="text" class="form-control" name="conduitplaced" placeholder="Conduit Placed">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Number of Driveway</label>
-        <div class="col-sm-10">
+        <label >Number of Driveway</label>
+
           <input type="number" class="form-control" name="drivewaynum" placeholder="Number of Driveway">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Feet(Driveway)</label>
-        <div class="col-sm-10">
+        <label >Feet(Driveway)</label>
+
           <input type="text" class="form-control" name="drivefeet" placeholder="Feet">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Flower Bed</label>
-        <div class="col-sm-10">
+        <label >Flower Bed</label>
+
           <input type="text" class="form-control" name="flowerbed" placeholder="Flower Bed">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Feet(Flower Bed)</label>
-        <div class="col-sm-10">
+        <label >Feet(Flower Bed)</label>
+
           <input type="text" class="form-control" name="flowfeet" placeholder="Feet">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Comments</label>
-        <div class="col-sm-10">
+        <label >Comments</label>
+
           <input type="text" class="form-control" name="comment" placeholder="Comments">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Work Time</label>
-        <div class="col-sm-10">
+        <label >Work Time</label>
+
           <input type="time" class="form-control" name="worktime" placeholder="Work Time">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Email</label>
-        <div class="col-sm-10">
+        <label >Email</label>
+
           <input type="email" class="form-control" name="email" placeholder="example@example.com">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">Fault Location</label>
-        <div class="col-sm-10">
+        <label >Fault Location</label>
+
           <input type="text" class="form-control" name="faultlocat" placeholder="Fault Location">
-        </div>
       </div>
       <div class="form-group">
-        <label class="col-sm-2 control-label">From</label>
-        <div class="col-sm-10">
+        <label >From</label>
+
           <input type="text" class="form-control" name="from" placeholder="From">
-        </div>
       </div>
-      <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
           <button type="submit" class="btn btn-default">Sign in</button>
-        </div>
-      </div>
     </form>
   </div>
 </body>
