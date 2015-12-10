@@ -12,211 +12,211 @@
       <div class="form-group">
         <label class="col-sm-2 control-label">Date</label>
         <div class="col-sm-10">
-          <input type="date" class="form-control" id="date">
+          <input type="date" class="form-control" name="date">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Work Order #</label>
         <div class="col-sm-10">
-          <input type="number" class="form-control" id="ordernum" placeholder="Work Order Number">
+          <input type="number" class="form-control" name="ordernum" placeholder="Work Order Number">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Additional ID</label>
         <div class="col-sm-10">
-          <input type="number" class="form-control" id="additionalid" placeholder="Additional ID">
+          <input type="number" class="form-control" name="additionalid" placeholder="Additional ID">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Crew #</label>
         <div class="col-sm-10">
-          <input type="number" class="form-control" id="crewnum" placeholder="Crew Number">
+          <input type="number" class="form-control" name="crewnum" placeholder="Crew Number">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Tech ID 1</label>
         <div class="col-sm-10">
-          <input type="number" class="form-control" id="techid1" placeholder="Tech ID 1">
+          <input type="number" class="form-control" name="techid1" placeholder="Tech ID 1">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Tech ID 2</label>
         <div class="col-sm-10">
-          <input type="number" class="form-control" id="techid2" placeholder="Tech ID 2">
+          <input type="number" class="form-control" name="techid2" placeholder="Tech ID 2">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Civic #</label>
         <div class="col-sm-10">
-          <input type="number" class="form-control" id="civicnum" placeholder="Civic Number">
+          <input type="number" class="form-control" name="civicnum" placeholder="Civic Number">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Address</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="address" placeholder="Address">
+          <input type="text" class="form-control" name="address" placeholder="Address">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Municipality</label>
         <div class="col-sm-10">
-          <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+          <input type="text" class="form-control" name="municipality" placeholder="Municipality">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Postal Code</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="postalcode" placeholder="Postal Code">
+          <input type="text" class="form-control" name="postalcode" placeholder="Postal Code">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Repair Type</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="repairtype" placeholder="Repair Type">
+          <input type="text" class="form-control" name="repairtype" placeholder="Repair Type">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Drop Length</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="droplength" placeholder="Drop Length">
+          <input type="text" class="form-control" name="droplength" placeholder="Drop Length">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Cable Type Used</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="cabletype" placeholder="Cable Type Used">
+          <input type="text" class="form-control" name="cabletype" placeholder="Cable Type Used">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Number of Driveway Crossing</label>
         <div class="col-sm-10">
-          <input type="number" class="form-control" id="crossingnum" placeholder="Number of Driveway Crossing">
+          <input type="number" class="form-control" name="crossingnum" placeholder="Number of Driveway Crossing">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Type</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="type" placeholder="Type">
+          <input type="text" class="form-control" name="type" placeholder="Type">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Sidewalk</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="sidewalk" placeholder="Sidewalk">
+          <input type="text" class="form-control" name="sidewalk" placeholder="Sidewalk">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Primary</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="primary" placeholder="Primary">
+          <input type="text" class="form-control" name="primary" placeholder="Primary">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Secondary</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="secondary" placeholder="Secondary">
+          <input type="text" class="form-control" name="secondary" placeholder="Secondary">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Tap Levels CH 3/4</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="tlch34" placeholder="Tap Levels CH 3/4">
+          <input type="text" class="form-control" name="tlch34" placeholder="Tap Levels CH 3/4">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Tap Levels CH 70</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="tlch70" placeholder="Tap Levels CH 70">
+          <input type="text" class="form-control" name="tlch70" placeholder="Tap Levels CH 70">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">CSE Levels CH 3/4</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="cselch34" placeholder="CSE Levels CH 3/4">
+          <input type="text" class="form-control" name="cselch34" placeholder="CSE Levels CH 3/4">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">CSE Levels CH 70</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="cselch70" placeholder="CSE Levels CH 70">
+          <input type="text" class="form-control" name="cselch70" placeholder="CSE Levels CH 70">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Tap Location</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="taplocat" placeholder="Tap Location">
+          <input type="text" class="form-control" name="taplocat" placeholder="Tap Location">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Safe Temporary Drop Removed</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="dropremoved" placeholder="Safe Temporary Drop Removed">
+          <input type="text" class="form-control" name="dropremoved" placeholder="Safe Temporary Drop Removed">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">CSE/Demaracation Point</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="csepoint" placeholder="CSE/Demaracation Point">
+          <input type="text" class="form-control" name="csepoint" placeholder="CSE/Demaracation Point">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Conduit Placed</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="conduitplaced" placeholder="Conduit Placed">
+          <input type="text" class="form-control" name="conduitplaced" placeholder="Conduit Placed">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Number of Driveway</label>
         <div class="col-sm-10">
-          <input type="number" class="form-control" id="drivewaynum" placeholder="Number of Driveway">
+          <input type="number" class="form-control" name="drivewaynum" placeholder="Number of Driveway">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Feet(Driveway)</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="drivefeet" placeholder="Feet">
+          <input type="text" class="form-control" name="drivefeet" placeholder="Feet">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Flower Bed</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="flowerbed" placeholder="Flower Bed">
+          <input type="text" class="form-control" name="flowerbed" placeholder="Flower Bed">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Feet(Flower Bed)</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="flowfeet" placeholder="Feet">
+          <input type="text" class="form-control" name="flowfeet" placeholder="Feet">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Comments</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="comment" placeholder="Comments">
+          <input type="text" class="form-control" name="comment" placeholder="Comments">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Work Time</label>
         <div class="col-sm-10">
-          <input type="time" class="form-control" id="worktime" placeholder="Work Time">
+          <input type="time" class="form-control" name="worktime" placeholder="Work Time">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Email</label>
         <div class="col-sm-10">
-          <input type="email" class="form-control" id="email" placeholder="example@example.com">
+          <input type="email" class="form-control" name="email" placeholder="example@example.com">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">Fault Location</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="faultlocat" placeholder="Fault Location">
+          <input type="text" class="form-control" name="faultlocat" placeholder="Fault Location">
         </div>
       </div>
       <div class="form-group">
         <label class="col-sm-2 control-label">From</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="from" placeholder="From">
+          <input type="text" class="form-control" name="from" placeholder="From">
         </div>
       </div>
       <div class="form-group">
