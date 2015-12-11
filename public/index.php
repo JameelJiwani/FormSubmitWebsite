@@ -8,6 +8,7 @@
 </head>
 <body>
   <div class="myContainer">
+    <h1>hey d00d</h1>
     <form class="" method="POST" action="submitForm.php">
       <div class="form-group">
         <label>Date</label>

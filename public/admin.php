@@ -1,6 +1,27 @@
 <?php
 // Start the session
 session_start();
+if(isset($_POST['login'])) {
+
+  $_SESSION["username"] = $_POST['username'];
+  $_SESSION["password"] = $_POST['password'];
+
+  $servername = getenv('IP');
+  $username = $_SESSION["username"];
+  $password = $_SESSION["password"];
+  $database = "companyDB";
+  $dbport = 3306;
+
+  // Connecting, selecting database
+  $link = @mysql_connect($servername, $username, $password);
+  if (!$link) {
+    echo "<h2 style='color: white;'>Incorrect Username or Password</h2>";
+  } else {
+    header("Location: list.php");
+    die();
+  }
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -13,39 +34,15 @@ session_start();
     </head>
     <body style="background-color: #1f8dd6;">
       <div class="adminContainer">
-        <title style="color: white;">This is a title</title>
-        <h1 style="color: white;">This is a title</h1>
         <h2 style="color: white;">Enter your credentials</h2>
-        <?php
-        if(isset($_POST['login'])) {
-
-            $_SESSION["username"] = $_POST['username'];
-            $_SESSION["password"] = $_POST['password'];
-
-            $servername = getenv('IP');
-            $username = $_SESSION["username"];
-            $password = $_SESSION["password"];
-            $database = "c9";
-            $dbport = 3306;
-
-            // Connecting, selecting database
-            $link = @mysql_connect($servername, $username, $password);
-            if (!$link) {
-                echo "Incorrect Username or Password";
-            } else {
-                header("Location: home.php");
-                die();
-            }
-        }
-        ?>
-        <form class="form-horizontal" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+        <form class="form-horizontal" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
           <div class="form-group">
             <input class="form-control" name="username" type="text" placeholder="Username">
           </div>
           <div class="form-group">
             <input class="form-control" name="password" type="password" placeholder="password">
           </div>
-          <button type="submit" class="btn btn-default">Submit</button>
+          <button type="submit" name="login" class="btn btn-default">Submit</button>
         </form>
       </div>
     </body>
