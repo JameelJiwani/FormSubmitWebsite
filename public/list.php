@@ -23,7 +23,7 @@ include('db.php');
                             document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
                         }
                     }
-                    xmlhttp.open("GET", "studentFind.php?q=" + str, true);
+                    xmlhttp.open("GET", "orderFind.php?q=" + str, true);
                     xmlhttp.send();
                 }
             }
@@ -32,7 +32,7 @@ include('db.php');
     <body style="background-color: #1f8dd6;">
         <h2><?php echo "Welcome $username"; ?></h2>
         <form style="text-align: center;" class="form-inline">
-                <input style="width: 80%;" type="text" onkeyup="showHint(this.value)" class="form-control" placeholder="Text input">
+                <input style="width: 80%;" type="text" onkeyup="showHint(this.value)" class="form-control" placeholder="Enter Order Number">
             </div>
             <div id="txtHint"></div>
         </form>
